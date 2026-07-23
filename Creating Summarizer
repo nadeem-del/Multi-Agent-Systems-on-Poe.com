@@ -1,0 +1,10 @@
+Merged Tutorial & Guided Exercise: The 2-Bot Execution Pattern
+In this guided exercise, you will create a 2-bot pipeline where an Executive Editor automatically triggers a Research Assistant to summarize a topic and evaluate it.
+
+Step 1: Build the Worker Sub-Agent (@FastSummarizer_Bot)
+Go to Poe.com -> Click Create Bot -> Select Prompt Bot.
+Set Handle/Name: FastSummarizer_Bot (if taken, add your initials, e.g., FastSummarizer_AB).
+Set Base Model: GPT-4o-mini.
+Paste this exact prompt into System Instructions:
+You are a research assistant. Summarize the topic provided in the chat history in exactly 3 concise bullet points. Total length must be under 50 words. Do not add intro or concluding phrases.
+Click Create Bot.

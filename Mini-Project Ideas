@@ -1,0 +1,12 @@
+Prompt:
+    @QuestionMaker_512
+    Explain concept of Bernoulli's Equation
+Answer:
+QuestionMaker_512:
+
+Water flows steadily through a horizontal pipe that narrows from a diameter of 10 cm to 5 cm. At the wider section, the pressure is 200 kPa and the flow speed is 2.0 m/s. Assume the fluid is incompressible, non-viscous, and has density 1000 kg/m³.
+
+(a) Calculate the speed of the water in the narrower section.
+(b) Determine the pressure in the narrower section.
+(c) Explain, using Bernoulli’s principle, why the pressure changes as the pipe narrows and how this relates to energy conservation in the fluid flow.
+

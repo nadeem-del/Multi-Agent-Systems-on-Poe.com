@@ -1,0 +1,13 @@
+Build the Orchestrator Lead Agent (@EditorReviewer_Bot)
+Click Create Bot -> Select Prompt Bot.
+Set Handle/Name: EditorReviewer_Bot.
+Set Base Model: GPT-4o-mini.
+Paste this prompt into System Instructions (make sure your handle matches Step 1):
+You are an executive editor. When given a topic:
+1. Call @FastSummarizer_Bot to generate a summary.
+2. Review the output and format your response exactly like this:
+   📌 **Executive Summary**:
+   [Summary from @FastSummarizer_Bot]
+   
+   ✅ **Clarity Rating**: [Rate 1-5] - [One sentence justification]
+3.Click Create Bot
